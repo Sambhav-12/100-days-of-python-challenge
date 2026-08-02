@@ -1,9 +1,9 @@
 PLACEHOLDER = "[name]"
 
-with open("./DAY-24/ToInvite.txt") as names_file:
+with open("./Day-24/ToInvite.txt") as names_file:
     names = names_file.readlines()
     
-with open("./DAY-24/Input/starting.docx") as letter:
+with open("./Day-24/Input/starting.docx") as letter:
     letter_contents = letter.read()
     for name in names:
         stripped_name = name.strip()
