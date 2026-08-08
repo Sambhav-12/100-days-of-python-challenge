@@ -1,6 +1,6 @@
 import pandas
 
-data = pandas.read_csv("DAY-26/NATO/nato_phonetic_alphabet.csv")
+data = pandas.read_csv("Day-26/NATO/nato_phonetic_alphabet.csv")
 nato_dict = {row.letter:row.code for (index, row) in data.iterrows()}
 
 words = input("Enter the word: ").replace(" ", "").upper()
