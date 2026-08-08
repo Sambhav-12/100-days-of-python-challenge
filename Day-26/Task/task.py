@@ -1,8 +1,8 @@
-with open("DAY-26/task/file1.txt") as f:
+with open("Day-26/Task/file1.txt") as f:
     lines = f.readlines()
     numbers1 = [int(num.strip()) for num in lines]
 
-with open("DAY-26/task/file2.txt") as f:
+with open("Day-26/Task/file2.txt") as f:
     lines = f.readlines()
     numbers2 = [int(num.strip()) for num in lines]
 
