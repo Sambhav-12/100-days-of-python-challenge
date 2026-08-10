@@ -39,7 +39,7 @@ def save():
             with open("data.txt", "a") as f:
                 f.write(f"{website} | {email} | {password}\n")
                 website_entry.delete(0, END)
-                pass_entry.deletee(0, END)
+                pass_entry.delete(0, END)
 
 # ---------------------------- UI SETUP ------------------------------- #
 window = Tk()
@@ -47,7 +47,7 @@ window.title("Password Manager")
 window.config(padx=50, pady=50)
 
 canvas = Canvas(width=200, height=200)
-logo_img = PhotoImage(file="DAY-29/logo.png")
+logo_img = PhotoImage(file="Day-29/logo.png")
 canvas.create_image(100, 100, image=logo_img)
 canvas.grid(column=0, row=0, columnspan=3)
 
