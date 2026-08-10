@@ -1,5 +1,3 @@
-from itertools import count
-from pydoc import text
 from tkinter import *
 import math
 # ---------------------------- CONSTANTS ------------------------------- #
