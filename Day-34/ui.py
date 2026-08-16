@@ -19,11 +19,11 @@ class QuizeInterface:
         self.question_text = self.canvas.create_text(150, 125, width=280,text="Some Question text", fill=THEME_COLOR, font=("Arial", 20, "italic"))
         self.canvas.grid(row=1, column=0, columnspan=2, pady=50)
 
-        true_image = PhotoImage("TriviaQuiz/images/true.png")
+        true_image = PhotoImage("Day-34/images/true.png")
         self.true_btn = Button(image=true_image, highlightthickness=0, command=self.true_pressed)
         self.true_btn.grid(row=2, column=0)
 
-        false_image = PhotoImage("TriviaQuiz/images/false.png")
+        false_image = PhotoImage("Day-34/images/false.png")
         self.false_btn = Button(image=false_image, highlightthickness=0, command=self.false_pressed)
         self.false_btn.grid(row=2, column=1)
 
