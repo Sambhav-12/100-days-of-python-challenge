@@ -1,4 +1,3 @@
-from pydoc import text
 from tkinter import *
 from quiz_brain import QuizBrain
 
